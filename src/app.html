@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="retro">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="manifest" href="manifest.json" />
+		<link rel="manifest" href="/manifest.json" />
 		%sveltekit.head%
+		<style>
+			html,
+			body {
+				height: 100%;
+			}
+		</style>
 	</head>
 	<body>
 		<div style="display: contents">%sveltekit.body%</div>
